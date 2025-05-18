@@ -23,7 +23,7 @@ function MyComponnet() {
       <button onClick={updateName}>Set Name</button>
       <p>Age: {age}</p>
       <button onClick={incrementAge}>Increment Age</button>
-      <p>Employed: {isEmployed}</p>
+      <p>Employed: {isEmployed ? "Yes" : "No"}</p>
       <button onClick={toggleEmployedStatus}>Toggle work</button>
     </div>
   );

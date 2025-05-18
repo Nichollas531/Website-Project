@@ -69,7 +69,8 @@
   cursor: crosshair;
   padding: 0;
 }
-header {
+
+/*header {
   position: sticky;
   top: 0;
   background: rgb(126, 117, 117);
@@ -83,4 +84,69 @@ body {
 footer {
   margin-top: auto;
   text-align: right;
+}
+*/
+.counter-container {
+  text-align: center;
+  font: Arial, sans-serif;
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(22, 97, 97);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+  background-color: black;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid grey;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+.color-display p {
+  color: blue;
+  font-size: 2rem;
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid grey;
 }
