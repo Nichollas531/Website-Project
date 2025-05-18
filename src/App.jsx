@@ -6,11 +6,15 @@ import Button from "./Button/Button.jsx";
 import Student from "./Studentx.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponnet from "./MyComponnet.jsx";
 function App() {
   return (
     <>
       <Header />
-      <Button />
+      <MyComponnet />
+      {/*
+      <ProfilePicture />
       <List />
       <UserGreeting isLoggedIn={true} username="Sheila" />
       <Student name="Nichollas" age={25} isStudent={false} />
@@ -18,6 +22,7 @@ function App() {
       <Student name="Clarice" age={37} isStudent={true} />
       <Card />
       <Food />
+      */}
       <Footer />
     </>
   );
