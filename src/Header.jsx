@@ -3,7 +3,7 @@ function Header() {
     <header>
       <h1>My website</h1>
       <nav>
-        <ul>
+        <ul className="header">
           <li>
             <a href="#">Home</a>
           </li>

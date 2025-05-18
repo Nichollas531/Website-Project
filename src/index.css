@@ -23,11 +23,64 @@
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(25, 126, 214);
 }
-.button {
-  background-color: rgb(0, 163, 238);
+
+.student {
+  font-family: Arial, serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 84%, 24%);
+}
+.student p {
+  margin: 0;
+}
+.welcome-message {
+  font-size: 2.5em;
+  background-color: green;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 5px;
-  border: none;
-  cursor: pointer;
+  margin: 0;
+}
+.login-prompt {
+  font-size: 2.5em;
+  background-color: rgb(136, 20, 20);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.basket-title {
+  background-color: rgb(94, 25, 184);
+  color: blanchedalmond;
+  margin: 0;
+  padding-left: 10px;
+}
+.list-items {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 0%;
+  border: 1px solid rgb(94, 25, 184);
+}
+.list-items li {
+  color: rgb(23, 23, 143);
+  list-style: none;
+}
+.list-items li:hover {
+  color: brown;
+  cursor: crosshair;
+  padding: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+  background: rgb(126, 117, 117);
+  color: azure;
+}
+body {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  text-align: right;
 }

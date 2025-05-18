@@ -9,11 +9,15 @@ function Button() {
     border: "none",
     cursor: "pointer",
   };
+
+  const handleClick = () => console.log("ouch!");
   return (
     <>
-      (<button className={styles.button}>Click me</button>) (
-      <button style={estilo}>not me</button>)
+      <button className={styles.button} onClick={handleClick}>
+        Click me
+      </button>
     </>
   );
 }
+//<button style={estilo}>not me</button>
 export default Button;
