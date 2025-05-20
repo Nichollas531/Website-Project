@@ -1,4 +1,4 @@
-.card {
+/*.card {
   border: 1px solid hsl(0, 0%, 57%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
@@ -70,7 +70,7 @@
   padding: 0;
 }
 
-/*header {
+header {
   position: sticky;
   top: 0;
   background: rgb(126, 117, 117);
@@ -85,7 +85,7 @@ footer {
   margin-top: auto;
   text-align: right;
 }
-*/
+
 .counter-container {
   text-align: center;
   font: Arial, sans-serif;
@@ -149,4 +149,70 @@ input[type="color"] {
   padding: 5px;
   border-radius: 10px;
   border: 3px solid grey;
+}*/
+.to-do.list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroung-color 0.5 ease;
+}
+.add-button {
+  background-color: hsl(120, 100%, 25%);
+}
+.add-button:hover {
+  background-color: hsl(120, 96%, 9%);
+}
+.delete-button {
+  background-color: hsl(0, 100%, 50%);
+}
+.delete-button:hover {
+  background-color: hsl(0, 94%, 25%);
+}
+.move-button {
+  background-color: hsl(192, 98%, 52%);
+}
+.move-button:hover {
+  background-color: hsl(189, 86%, 26%);
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(196, 181, 181);
+  border-radius: 5px;
+  color: black;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  padding: 15px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  border: 4px solid grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }

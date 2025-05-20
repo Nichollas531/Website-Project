@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Header.jsx
+Footer.jsx
+List.jsx
+MyChangeComponent.jsx
+MyComponent.jsx
+Ojects.jsx
+ProfilePicture.jsx
+Studentx.jsx
+UserGreeting.jsx

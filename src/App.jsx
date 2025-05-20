@@ -14,10 +14,12 @@ import ColorPicker from "./ColorPicker.jsx";
 import Objects from "./Objects.jsx";
 import Foods from "./Foods.jsx";
 import Cars from "./Cars.jsx";
+import ToDoList from "./ToDoList.jsx";
 function App() {
   return (
     <>
       <Header />
+      <ToDoList />
       {/*
       <Cars />
       <Foods />
