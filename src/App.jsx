@@ -15,12 +15,16 @@ import Objects from "./Objects.jsx";
 import Foods from "./Foods.jsx";
 import Cars from "./Cars.jsx";
 import ToDoList from "./ToDoList.jsx";
+import SecondComponent from "./ComponnentUseEffect.jsx";
+import Clock from "./Clock.jsx";
 function App() {
   return (
     <>
-      <Header />
-      <ToDoList />
+      <Clock />
       {/*
+      <Header />
+      <SecondComponent />
+      <ToDoList />
       <Cars />
       <Foods />
       <Objects />
@@ -36,8 +40,8 @@ function App() {
       <Student name="Clarice" age={37} isStudent={true} />
       <Card />
       <Food />
-      */}
       <Footer />
+      */}
     </>
   );
 }

@@ -149,7 +149,6 @@ input[type="color"] {
   padding: 5px;
   border-radius: 10px;
   border: 3px solid grey;
-}*/
 .to-do.list {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -215,4 +214,28 @@ li {
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+
+}*/
+body {
+  background-image: url(assets/buildingsR.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container {
+}
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.74);
 }
