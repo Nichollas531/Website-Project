@@ -17,11 +17,15 @@ import Cars from "./Cars.jsx";
 import ToDoList from "./ToDoList.jsx";
 import SecondComponent from "./ComponnentUseEffect.jsx";
 import Clock from "./Clock.jsx";
+import UseContext from "./UseContext.jsx";
+import UseRef from "./UseRef.jsx";
 function App() {
   return (
     <>
       <Clock />
       {/*
+      <UseRef />
+      <UseContext />
       <Header />
       <SecondComponent />
       <ToDoList />
