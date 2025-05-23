@@ -19,11 +19,13 @@ import SecondComponent from "./ComponnentUseEffect.jsx";
 import Clock from "./Clock.jsx";
 import UseContext from "./UseContext.jsx";
 import UseRef from "./UseRef.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 function App() {
   return (
     <>
-      <Clock />
+      <Stopwatch />
       {/*
+      <Clock />
       <UseRef />
       <UseContext />
       <Header />
