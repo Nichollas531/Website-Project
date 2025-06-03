@@ -246,7 +246,6 @@ li {
     text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.74);
   }
   
-  }*/
 body {
   display: flex;
   flex-direction: column;
@@ -300,3 +299,5 @@ body {
 .reset-button:hover {
   background-color: hsl(184, 73%, 30%);
 }
+
+  }*/

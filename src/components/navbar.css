@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin-right: 10px;
+  padding: 8px;
+}
+li {
+  list-style: none;
+}
+li:hover {
+  cursor: pointer;
+}
