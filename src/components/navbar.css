@@ -1,13 +1,13 @@
-ul {
+.navbar {
   display: flex;
   gap: 10px;
   justify-content: end;
   margin-right: 10px;
   padding: 8px;
 }
-li {
+.navbar li {
   list-style: none;
 }
-li:hover {
+.navbar li:hover {
   cursor: pointer;
 }

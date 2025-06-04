@@ -7,9 +7,9 @@
 .body-container {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr 200px;
   grid-template-rows: auto 1fr auto;
-  grid-template-areas: "navbar navbar" "sidebar main" "sidebar footer";
+  grid-template-areas: "navbar navbar" "main sidebar" "footer sidebar ";
 }
 nav {
   position: sticky;

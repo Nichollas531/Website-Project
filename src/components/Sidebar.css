@@ -1,0 +1,9 @@
+.sidebar {
+  color: red;
+}
+.sidebar li {
+  text-align: end;
+}
+.sidebar li:hover {
+  color: blue;
+}
