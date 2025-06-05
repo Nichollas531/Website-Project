@@ -1,32 +1,51 @@
+/* TODO: Fix images not being called as button on sub menus */
+:root {
+  --base-clr: #11121a;
+  --line-clr: #42434a;
+  --hover-clr: #222533;
+  --text-clr: #e6e6ef;
+  --accent-clr: #5e63ff;
+  --secondary-text-clr: #b0b3c1;
+}
 * {
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 13%);
-  color: rgb(240, 240, 240);
 }
-.body-container {
+html {
+  line-height: 1.5rem;
+}
+#body-container {
   min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--base-clr);
+  color: var(--text-clr);
   display: grid;
-  grid-template-columns: 1fr 200px;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: "navbar navbar" "main sidebar" "footer sidebar ";
-}
-nav {
-  position: sticky;
-  top: 0;
-  grid-area: navbar;
-  border-bottom: 2px solid white;
-  padding: 10px;
-}
-aside {
-  position: sticky;
-  top: 52.5px;
-  grid-area: sidebar;
-  align-self: start;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "navbar sidebar" "main sidebar";
 }
 main {
   grid-area: main;
+  padding: min(30px, 7%);
 }
-footer {
-  grid-area: footer;
+nav {
+  grid-area: navbar;
+}
+aside {
+  grid-area: sidebar;
+}
+main p {
+  color: var(--secondary-text-clr);
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.container {
+  border: 1px solid var(--line-clr);
+  border-radius: 1em;
+  margin-bottom: 20px;
+  padding: min(3em, 15%);
+  h2,
+  p {
+    margin-top: 1em;
+  }
 }

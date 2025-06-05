@@ -5,17 +5,16 @@ import Main from "./components/Main";
 function App() {
   return (
     <>
-      <div className="body-container">
-        <nav>
-          <Navbar />
-        </nav>
-        <main>
-          <Main />
-        </main>
+      <div id="body-container">
         <aside>
           <Sidebar />
         </aside>
-        <footer>Driving na Terra da Rainha</footer>
+        <main>
+          <Main />
+        </main>
+        <nav>
+          <Navbar />
+        </nav>
       </div>
     </>
   );
